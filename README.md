@@ -7,6 +7,7 @@ at Aalborg University, most recently in June 2023
 - Author: Ikhtiyor Nematov, Computer Science Department Aalborg University
 
 Code Modules: The project’s source code consists of the following modules:
+
 (1) lorenz: This module contains five files: init, filehandling, solver, plot, and testing. The solver file
 implements Algorithm 1 and provides getter and setter methods for the required parameters.
 It also includes methods to compute the values of 𝑥, 𝑦, and 𝑧 using the given equations, as well
