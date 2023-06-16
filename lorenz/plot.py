@@ -102,7 +102,7 @@ class OdePlotter:
         # Plotting points based on their distance in a different color
         for i in range(N - 1):
             dist = dists[i]
-            plt.plot(a_coordinates[i:i + 2], b_coordinates[i:i + 2], color=(0.29, 1 - (dist / max_distance), 0.75),
+            plt.plot(a_coordinates[i:i + 2], b_coordinates[i:i + 2], color=(1 - (dist / max_distance), 0.29, 0.75),
                      linewidth=1)
 
         # Setting the labels for axis
