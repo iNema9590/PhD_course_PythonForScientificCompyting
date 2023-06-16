@@ -14,6 +14,8 @@ as a method to retrieve the class configuration as a string. The plot file inclu
 plotting 2D and 3D plots in color format. The filehandling file contains methods for writing
 the configuration and the (𝑥, 𝑦, 𝑧) values to files. The testing file includes test methods to
 verify the functionality of the solver class using the Unittest library.
+#
 (2) cases: This module includes separate files for each test case. These files execute the ODE
 solver with different configurations, plot the results, and save the configurations.
+#
 (3) result directory: This directory contains folders to store the resultant files for each test case
